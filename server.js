@@ -12,7 +12,7 @@ const __dirname = path.resolve();
 
 
 app.use(cors({
-  origin: ["http://127.0.0.1:3001", "http://localhost:3001", "https://lala-personalizados-frontend.vercel.app"], // se frontend separado
+  origin: ["http://127.0.0.1:3001", "http://localhost:3001", "https://lala-personalizados-frontend.vercel.app", "lala-personalizados-frontend-rc6m177m2-nick000las-projects.vercel.app"], 
   credentials: true
 }));
 

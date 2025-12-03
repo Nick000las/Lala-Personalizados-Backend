@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: ["http://localhost:3001", "https://lala-personalizados-frontend.vercel.app"], 
+  origin: ["http://localhost:3001", "https://lala-personalizados-frontend.vercel.app", "lala-personalizados-frontend-rc6m177m2-nick000las-projects.vercel.app"], 
   
   credentials: true
 }));
