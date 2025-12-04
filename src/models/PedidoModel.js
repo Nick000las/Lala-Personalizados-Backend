@@ -17,7 +17,7 @@ const PedidoModel = {
         status: "pendente",
         email,
         telefone,
-        itens: { itens, template_id },
+        itens: itens,   // ✅ CORRETO
         total_itens,
         endereco,
         template_id
